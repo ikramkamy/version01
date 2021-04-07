@@ -1,0 +1,44 @@
+.produit
+{
+
+display: flex;
+flex-direction: column;
+
+
+}
+.products-discreption
+{ 
+color: blue;
+border: 1px solid white;
+}
+.liste-prod
+{
+display: flex;
+justify-content: space-between;
+width: 80%;
+}
+.liste-prod
+{
+    border: 1px solid;
+    
+}
+.pro-item
+{
+    background-color: blue;
+    width: 17%;
+    font-size: 60%;
+    font-weight: 500;
+    color: white;
+}
+.product-title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.exposing-prod
+{
+    display: flex;
+    
+}

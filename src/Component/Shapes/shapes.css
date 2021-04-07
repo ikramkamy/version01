@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+   
+   
+   
+   .shapes {
+    width: 30vw;
+    height: auto;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    border-bottom-right-radius: 20px;
+    background: blue;
+
+    
+      }
+      .shapes button
+      {
+          background-color: white;
+          color: blue;
+          font-weight: 800;
+          border-radius: 25px;
+      }
+      .shapes-item
+      {
+          color: white;
+          font-size: 0.8em;
+      }
+      .nav-item :hover 
+      {
+          border-bottom:  1px solid white;
+         color: white;
+         font-weight: 850;
+         font-size: larger;
+
+      }
+      .nav {
+        
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+
+      }
+      .nav-container
+      {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+      }
+      .comapany-name
+      {
+          display: flex;
+          flex-direction: column;
+        
+          justify-content: center;
+          text-align:left ;
+          color: white;
+          height: 50%;
+          width: 60%;
+          font-size: 1.5vw;
+          font-weight: bolder;
+          text-align:left;
+          }
+   
+     
+      .comapany-name p{
+        font-size: 0.8vw;
+        font-weight: 500; 
+        text-align: justify;
+      }
+     .button-container
+     {
+         width: 100%;
+         display: flex;
+         justify-content: flex-start;
+         padding-left: 2%;
+     }

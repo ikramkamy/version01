@@ -1,0 +1,32 @@
+.services
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.servive-title
+{
+    width: 100%;
+    color: blue;
+    font-size: 3vw;
+    font-weight: 700;
+    text-align: center;
+}
+.service-one
+{
+    width: 30%;
+    height: 30vh;
+    background-color: blue;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.service-container
+{
+    border-bottom: 1px solid white;
+    width: 80%;
+}
