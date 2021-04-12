@@ -7,8 +7,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    background-color: blue;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 10%;
 
 }
 .presentation h1{
@@ -19,5 +20,41 @@
 }
 .presentation p{
     width:72%;
-    font-size: 2.2vw;
+    font-size: 2vw;
 }
+@media only screen and (max-width: 1200px) {
+    .presentation
+    {
+        height: auto;
+    }
+
+
+    .presentation h1
+    {
+        
+        font-size: 5vw;
+    }
+    .presentation p{
+        width:100%;
+        font-size: 2vw;
+    }
+    }
+    @media only screen and (max-width: 320px) {
+        .presentation
+        {
+            height: auto;
+            margin-top: 10%;
+            background-size: 162%;
+            margin-top: 15%;
+        }
+     .presentation h1
+        {
+            
+       font-size: 6vw;
+        }
+        .presentation p{
+            width:100%;
+            font-size: 4vw;
+
+        }
+        }

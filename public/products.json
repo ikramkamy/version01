@@ -1,0 +1,37 @@
+{
+"products":[
+
+{
+    "id":  1, 
+    "name": "Cuve sipmle ",
+    "url":"/images/4_Plan de travail 1.png"
+
+},
+{
+    "id":  2, 
+    "name": "Cuve sipmle ",
+    "url":"images/3_Plan de travail 1.png"
+
+},
+{
+    "id":  3, 
+    "name": "Cuve sipmle ",
+    "url":"/images/2_Plan de travail 1.png"
+
+},
+{
+    "id":  4, 
+    "name": "Cuve sipmle ",
+    "url":"/images/1_Plan de travail 1.png"
+
+}
+
+
+
+
+
+
+
+]
+
+}

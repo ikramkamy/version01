@@ -1,32 +1,168 @@
 .services
 {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+
+}
+.services-cont
+{
+width: 90%;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+
 }
 .servive-title
 {
     width: 100%;
     color: blue;
-    font-size: 3vw;
+    font-size: 6.5vw;
     font-weight: 700;
     text-align: center;
 }
 .service-one
 {
     width: 30%;
-    height: 30vh;
-    background-color: blue;
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    height: 60vh;
     color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top:  5%;
    
 }
 .service-container
 {
     border-bottom: 1px solid white;
     width: 80%;
+    height: 50%;
 }
+.service-container  h2
+{ 
+
+font-size: 1.5vw;
+text-align: center;
+font-weight: bolder;
+
+}
+.service-container  h1
+{ 
+
+font-size: 3vw;
+text-align: center;
+font-weight: bolder;
+
+}
+#sp-one
+{
+    word-spacing: 10px;
+    font-size: 2vw;
+}
+
+@media only screen and (max-width: 320px) {
+
+   .services
+   {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: none;
+      background-size: cover;
+   }
+
+   .services-cont
+   {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+   }
+   .service-one
+   {
+       width: 80%;
+   }
+   .servive-title
+   {
+       font-size: 10vw;
+   }
+   .service-container  h1
+{ 
+
+font-size: 7vw;
+}
+.service-container  p
+{ 
+
+font-size: 4vw;
+}
+.services-cont h2
+ {
+font-size: 4vw;
+
+}
+#sp-one
+{
+    
+    font-size: 3vw;
+}
+
+}
+@media only screen and (max-width: 1200px){
+
+.service-container
+{
+    width: 100%;
+    border-bottom: none;
+}
+    .service-container p 
+    {
+        font-size: 1.5vw;
+        
+    }
+    #sp-one
+{
+    
+    font-size: 2vw;
+    word-spacing: 0px;
+}
+
+
+}
+@media only screen and (max-width: 600px){
+
+    .services-cont
+    {
+     display: flex;
+     flex-direction: column; 
+     justify-content: center;
+     align-items: center;
+    }  
+     .service-one
+   {
+       height: auto;
+       width: 70%;
+       height: 50vh;
+       margin-top: 0%;
+       margin-bottom: 0%;
+       padding-top:  0%;
+      
+   }
+   .service-container
+   {
+       width: 80%;
+       display: flex;
+       align-items: center;
+       justify-content: flex-start;
+       flex-direction: column;
+   }
+   .service-container p 
+   {
+       font-size: 3.5vw;
+   
+   }
+    }

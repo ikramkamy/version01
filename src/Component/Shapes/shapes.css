@@ -2,15 +2,21 @@
     margin: 0px;
     padding: 0px;
 }
-   
+.top-nav 
+{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+  
+}
    
    
    .shapes {
-    width: 30vw;
-    height: auto;
-    transform: matrix(1, 0, 0, 1, 0, 0);
-    border-bottom-right-radius: 20px;
-    background: blue;
+    width: 50vw;
+    height: 62vh;
+    
+    background-repeat: no-repeat;
+    background-size:100%;
 
     
       }
@@ -24,7 +30,7 @@
       .shapes-item
       {
           color: white;
-          font-size: 0.8em;
+          font-size: 1.5em;
       }
       .nav-item :hover 
       {
@@ -38,8 +44,7 @@
         
         display: flex;
         flex-wrap: nowrap;
-        flex-direction: row;
-
+       
       }
       .nav-container
       {
@@ -51,27 +56,133 @@
       {
           display: flex;
           flex-direction: column;
-        
           justify-content: center;
           text-align:left ;
           color: white;
           height: 50%;
-          width: 60%;
+          width: 80%;
           font-size: 1.5vw;
           font-weight: bolder;
           text-align:left;
+          padding-left: 5%;
           }
    
      
       .comapany-name p{
-        font-size: 0.8vw;
-        font-weight: 500; 
-        text-align: justify;
+        font-size: 1vw;
+         text-align: justify;
+        
       }
      .button-container
      {
          width: 100%;
          display: flex;
          justify-content: flex-start;
-         padding-left: 2%;
+         padding-left: 3%;
+         padding-bottom: 10%;
+         height: 20%;
      }
+     .button-container button {
+
+        border: none;
+        height: fit-content;
+     }
+     .inox-back
+     {
+         width: 60vw;
+         background-repeat: no-repeat;
+         background-size: 109%;
+         height: 62vh;
+     }
+     .inox-back-size
+     {
+         width: 100%;
+     }
+     @media only screen and (max-width: 1200px) {
+
+        .inox-back
+        {
+           display: none;
+        }
+        .shapes {
+
+            width: 100%;
+            background-size:150%;
+        }
+        .shapes-item
+      {
+          color: white;
+          font-size: 2.8vw;
+      }
+      .logo-nav
+      {
+          width: 3em;
+      }
+
+      .comapany-name
+      {
+        height: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .comapany-name p
+    {
+        font-size: 2.8vw;  
+    }
+         
+          .button-container
+          {
+             display: flex;
+            justify-content: center;
+          }
+       
+        }
+
+        @media only screen and (max-width: 320px)
+        {
+            .comapany-name p
+            {
+                font-size: 3vw;  
+                width: 100%;
+                text-align: center;
+            }
+            .comapany-name h1
+            {
+                font-size: 3vw;  
+                width: 100%;
+                text-align: center;
+                border: solid red;
+            }
+            .comapany-name
+            {
+                font-size: 8vw;
+            }
+
+
+
+
+        }
+        @media only screen and (max-width: 600px)
+        {
+            .comapany-name p
+            {
+                font-size: 3vw;  
+                width: 100%;
+                text-align: center;
+            }
+            .comapany-name h1
+            {
+                font-size: 3vw;  
+                width: 100%;
+                text-align: center;
+                border: solid red;
+            }
+            .comapany-name
+            {
+                font-size: 8vw;
+            }
+
+
+
+
+        }
