@@ -1,10 +1,13 @@
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './produit.css';
-//import { useContext, useEffect, useState } from 'react';
+import {  useEffect, useState } from 'react';
+import React from 'react';
+import {Link} from 'react-router-dom';
 
 function Produits (props) {
   const matches = useMediaQuery('(min-width:1200px)');
+  const {addlait}=props;
   return (
     <div className="produit" style={{ 
       backgroundImage: `url("/images/fond-01.jpg")` }}>
@@ -14,19 +17,16 @@ function Produits (props) {
         </div>
         
 <div className="org-product">
-        <div className="liste-prod">
-        <div className="pro-item">Laits</div>
-        <div className="pro-item">Jus</div>
-        <div className="pro-item">Dattes</div>
-        <div className="pro-item">Chocolat</div>
-        </div>
-
-    <div className="exposing-prod">
-      <div className="expos-item">
-          <div className="image" style={{borderRight:"2px solid  blue"}}><img src="/images/4_Plan de travail 1.png "  className="products-size"/></div>
-          <div className="image-title">Cuve simple paroi</div>
-      </div>
-      <div className="expos-item">
+      <div className="liste-prod">
+       <Link to="/lait" className="pro-item"><div className="pro-item"  >Laits</div></Link> 
+      <Link to="/jus" className="pro-item">  <div className="pro-item">Jus</div></Link> 
+       <Link to="/dattes" className="pro-item"> <div className="pro-item">Dattes</div>  </Link> 
+       <Link to="/chocolat" className="pro-item"> <div className="pro-item">Chocolat</div> </Link> 
+       
+</div>
+    
+      {/*
+ <div className="expos-item">
       <div className="image" style={{borderRight:"2px solid  blue"}}><img src="/images/3_Plan de travail 1.png " className="products-size"/></div>
       <div className="image-title">Cuve double paroi</div>
       </div>
@@ -40,8 +40,11 @@ function Produits (props) {
     <div className="image-title">Mixeur</div>
       </div>
 
+      */}
+     
 
-    </div>
+
+    
   
     </div>
     </div>

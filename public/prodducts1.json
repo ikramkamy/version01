@@ -1,0 +1,55 @@
+       {
+        "product1s":[
+        
+        {
+            "id":  1, 
+            "name": "Postérisateur ",
+            "url":"/images/4_Plan de travail 1.png"
+        
+        },
+        {
+            "id":  2, 
+            "name": "Cuve de stockage doubles paroies ",
+            "url":"images/3_Plan de travail 1.png"
+        
+        },
+        {
+            "id":  3, 
+            "name": "Cuve de stockage triple paroies eau chaude",
+            "url":"/images/2_Plan de travail 1.png"
+        
+        },
+        {
+            "id":  5, 
+            "name": "Cuve de stockage triple paroies eau glacée ",
+            "url":"/images/1_Plan de travail 1.png"
+        
+        },
+        {
+            "id":  6, 
+            "name": "Cuve réfrigérée ",
+            "url":"/images/1_Plan de travail 1.png"
+        
+        },
+        {
+            "id":  7, 
+            "name": "Cuve forme carrée ",
+            "url":"/images/1_Plan de travail 1.png"
+        
+        },
+        {
+            "id":  8, 
+            "name": "Mixeur ",
+            "url":"/images/1_Plan de travail 1.png"
+        
+        },
+        {
+            "id":  9, 
+            "name": "Pompe ",
+            "url":"/images/1_Plan de travail 1.png"
+        
+        }
+        
+        ]
+        
+        }

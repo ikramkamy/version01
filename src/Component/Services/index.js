@@ -31,8 +31,8 @@ function Services (props) {
      <div className="service-one" style={{ 
       backgroundImage: `url("/images/forme 1_Plan de travail 1.png")` }}>
      <div className="service-container">
-     <h1>FABRICATION</h1>
-     <p>L'inox est trés recommandé dans l'industrie des agro-alimentaire ou parapharmacetique pour leur aspect d'hygiéne et leur durabilité. </p>
+     <h1>Installation</h1>
+     <p> Après la fabrication nous accompagnons nos clients dans l’installation de nos produits au sein de leur compartiments.</p>
      </div>
       </div>
       </div>

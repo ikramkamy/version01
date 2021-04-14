@@ -6,7 +6,7 @@
 {
     display: flex;
     width: 100%;
-    height: 50vh;
+    height: auto;
   
 }
    
@@ -14,12 +14,10 @@
    .shapes {
     width: 50vw;
     height: 62vh;
-    
     background-repeat: no-repeat;
     background-size:100%;
-
     
-      }
+}
       .shapes button
       {
           background-color: white;
@@ -50,7 +48,8 @@
       {
           width: 100%;
           display: flex;
-          justify-content: center;
+          justify-content: space-between;
+          height: auto;
       }
       .comapany-name
       {
@@ -98,6 +97,21 @@
      {
          width: 100%;
      }
+     .shapes button
+     {
+         background-color: transparent;
+         color: white;
+     }
+     .navbar
+     {
+       width: 100%;
+     }
+     @media only  screen and (max-width:1500px){
+         .comapany-name
+         {
+             height: auto;
+         }
+     }
      @media only screen and (max-width: 1200px) {
 
         .inox-back
@@ -108,6 +122,10 @@
 
             width: 100%;
             background-size:150%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
         }
         .shapes-item
       {
@@ -116,7 +134,7 @@
       }
       .logo-nav
       {
-          width: 3em;
+          width: 5em;
       }
 
       .comapany-name
@@ -135,7 +153,45 @@
              display: flex;
             justify-content: center;
           }
-       
+          
+          .comapany-name p
+          {
+              font-size: 3vw;  
+              width: 100%;
+              text-align: center;
+          }
+          .comapany-name h1
+          {
+              font-size: 3vw;  
+              width: 100%;
+              text-align: center;
+             
+          }
+          .comapany-name
+          {
+              font-size: 8vw;
+          }
+    
+            .shapes
+{
+    height: auto;
+}
+        
+        }
+        @media only screen and (max-width:900px)
+        {
+            .shapes
+{
+    height: auto;
+}
+        }
+        @media only screen and (max-width: 1500px)
+        {
+            .inox-back
+            {
+                background-size: 109%;
+            }
+
         }
 
         @media only screen and (max-width: 320px)
@@ -157,6 +213,19 @@
             {
                 font-size: 8vw;
             }
+            .shapes
+            {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: column;
+                background-size: auto;
+
+            }
+            .item-contact {
+                font-size: 3.5vw;
+            }
+           
 
 
 
@@ -181,7 +250,15 @@
             {
                 font-size: 8vw;
             }
-
+          
+.shapes
+{
+    height: auto;
+}
+.map 
+{
+    width: 40%;
+}
 
 
 

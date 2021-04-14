@@ -22,6 +22,7 @@
     width:72%;
     font-size: 2vw;
 }
+
 @media only screen and (max-width: 1200px) {
     .presentation
     {
@@ -39,18 +40,35 @@
         font-size: 2vw;
     }
     }
+
+
+    @media only screen and (max-width:600px){
+        .presentation p {
+          
+            font-size: 3vw;
+            
+        }   
+        .presentation 
+        {
+
+         margin-top: 20%;
+
+        }
+        
+    }
     @media only screen and (max-width: 320px) {
         .presentation
         {
             height: auto;
             margin-top: 10%;
             background-size: 162%;
-            margin-top: 15%;
+            margin-top: 20%;
         }
      .presentation h1
         {
             
        font-size: 6vw;
+     
         }
         .presentation p{
             width:100%;
