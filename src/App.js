@@ -16,6 +16,9 @@ import { BrowserRouter as Router,Switch, Route } from "react-router-dom";
 
 function App() {
   const [products,setProducts]= useState([]);
+  const [products1,setProducts1]= useState([]);
+  const [products2,setProducts2]= useState([]);
+  const [products3,setProducts3]= useState([]);
   const [cart,setCart]=useState([]);
   console.log("the cart legnth is ",cart.length)
   const [count, setCount]=useState(cart.length);
@@ -36,7 +39,7 @@ setTabprod(data.products)
 })
 },[])
 */
-const handleClick=()=>{setCount(cart.length)};
+
 const getData=()=>
   fetch("products.json", {
     headers: {
@@ -58,7 +61,54 @@ const getData=()=>
     {products.map((el)=> <Expos name={el.name} url={el.url}/>)}
    
     }
-  
+
+    const  getData1=()=>
+  fetch("products1.json", {
+  headers: {
+      'Content-Type': 'application/json',
+      'Accept': 'application/json'
+    }
+  }).then(response => response.json())
+  useEffect(()=>{
+    getData1().then((data)=> {
+      console.log(data); 
+      setProducts1(data.product1s)
+    })
+    
+   // console.log("products");
+   },[])
+
+   const  getData2=()=>
+   fetch("products2.json", {
+   headers: {
+       'Content-Type': 'application/json',
+       'Accept': 'application/json'
+     }
+   }).then(response => response.json())
+   useEffect(()=>{
+     getData2().then((data)=> {
+       console.log(data); 
+       setProducts2(data.product2s)
+     })
+     
+    // console.log("products");
+    },[]) 
+   
+    const  getData3=()=>
+    fetch("products3.json", {
+    headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      }
+    }).then(response => response.json())
+    useEffect(()=>{
+      getData3().then((data)=> {
+        console.log(data); 
+        setProducts3(data.product3s)
+      })
+      
+     // console.log("products");
+     },[]) 
   return (
     <div className="App">
 
@@ -79,16 +129,16 @@ const getData=()=>
           </Route>
           <Route path="/jus">
             
-          <div className="exposing-prod"> {products.map((el)=> <Expos name={el.name} url={el.url}/>)} </div>
+          <div className="exposing-prod"> {products1.map((el)=> <Expos name={el.name} url={el.url}/>)} </div>
              </Route>
 
              <Route path="/dattes">
             
-             <div className="exposing-prod"> {products.map((el)=> <Expos name={el.name} url={el.url}/>)}</div>
+             <div className="exposing-prod"> {products2.map((el)=> <Expos name={el.name} url={el.url}/>)}</div>
              </Route>
              <Route path="/chocolat">
             
-             <div className="exposing-prod"> {products.map((el)=> <Expos name={el.name} url={el.url}/>)}</div>
+             <div className="exposing-prod"> {products3.map((el)=> <Expos name={el.name} url={el.url}/>)}</div>
           </Route>
 
           <Route exact path="/">

@@ -1,6 +1,8 @@
 import React from 'react';
 import './contact.css';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 const Conatct=(props)=>{
+    const matches = useMediaQuery('(min-width:600px)');
     return(
 <div className="contact">
 

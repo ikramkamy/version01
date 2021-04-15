@@ -1,27 +1,33 @@
 {
-    "products":[
+    "product2s":[
     
     {
         "id":  1, 
-        "name": "Cuve simple paroi ",
+        "name": "Pompe de transfert",
         "url":"/images/4_Plan de travail 1.png"
     
     },
     {
         "id":  2, 
-        "name": "Cuve double paroi ",
+        "name": "Conche à bille",
         "url":"images/3_Plan de travail 1.png"
     
     },
     {
         "id":  3, 
-        "name": "Cuve réfrigérée ",
+        "name": "Cuve doubles paroies ",
         "url":"/images/1_Plan de travail 1.png"
     
     },
     {
         "id":  4, 
-        "name": "Mixeur ",
+        "name": "Tanquke de stocage ",
+        "url":"/images/2_Plan de travail 1.png"
+    
+    },
+    {
+        "id":  5, 
+        "name": "Mixeur double agitation",
         "url":"/images/2_Plan de travail 1.png"
     
     }

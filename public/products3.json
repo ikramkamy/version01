@@ -1,15 +1,15 @@
 {
-    "products":[
+    "product3s":[
     
     {
         "id":  1, 
-        "name": "Cuve simple paroi ",
+        "name": "Laveuse des  caisses",
         "url":"/images/4_Plan de travail 1.png"
     
     },
     {
         "id":  2, 
-        "name": "Cuve double paroi ",
+        "name": "Laveuse des dattes",
         "url":"images/3_Plan de travail 1.png"
     
     },
@@ -21,7 +21,7 @@
     },
     {
         "id":  4, 
-        "name": "Mixeur ",
+        "name": "Convoyeur ",
         "url":"/images/2_Plan de travail 1.png"
     
     }

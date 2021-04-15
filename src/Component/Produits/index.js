@@ -7,7 +7,28 @@ import {Link} from 'react-router-dom';
 
 function Produits (props) {
   const matches = useMediaQuery('(min-width:1200px)');
-  const {addlait}=props;
+  const [milk,setMilk ]=useState([]);
+  //const {addlait}=props;
+
+
+
+ 
+const getData=()=>
+  fetch("products1.json", {
+    headers: {
+      'Content-Type': 'application/json',
+      'Accept': 'application/json'
+    }
+  }).then(response => response.json())
+  useEffect(()=>{
+    getData().then((data)=> {
+      console.log(data); 
+      setMilk(data.products1)
+    })
+    
+    console.log(milk);
+   },[])
+const milfunc=()=>{milk.map((el)=>{<div >{el.name}</div>})}
   return (
     <div className="produit" style={{ 
       backgroundImage: `url("/images/fond-01.jpg")` }}>
@@ -20,8 +41,8 @@ function Produits (props) {
       <div className="liste-prod">
        <Link to="/lait" className="pro-item"><div className="pro-item"  >Laits</div></Link> 
       <Link to="/jus" className="pro-item">  <div className="pro-item">Jus</div></Link> 
-       <Link to="/dattes" className="pro-item"> <div className="pro-item">Dattes</div>  </Link> 
-       <Link to="/chocolat" className="pro-item"> <div className="pro-item">Chocolat</div> </Link> 
+      <Link to="/dattes" className="pro-item"> <div className="pro-item">Chocolat</div>  </Link> 
+       <Link to="/chocolat" className="pro-item"> <div className="pro-item"> Dattes</div> </Link> 
        
 </div>
     
