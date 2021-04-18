@@ -59,11 +59,13 @@ width: 100%;
 }
 
 
-link 
+link :hover
 
 {
     color: red;
+    outline: none;
 }
+
 
 @media only screen and (max-width: 1200px) {
 
