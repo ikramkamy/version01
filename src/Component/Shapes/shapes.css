@@ -44,6 +44,10 @@
         flex-wrap: nowrap;
        
       }
+      .navbar-dark .navbar-nav .nav-link {
+        color: red;
+       
+         }
       .nav-container
       {
           width: 100%;
@@ -60,7 +64,7 @@
           color: white;
           height: 50%;
           width: 80%;
-          font-size: 1.5vw;
+          font-size: 3vw;
           font-weight: bolder;
           text-align:left;
           padding-left: 5%;
@@ -68,9 +72,9 @@
    
      
       .comapany-name p{
-        font-size: 1vw;
+        font-size: 1.8vw;
          text-align: justify;
-        
+         font-weight: 500;
       }
      .button-container
      {
@@ -83,7 +87,7 @@
      }
      .button-container button {
 
-        border: none;
+      
         height: fit-content;
      }
      .inox-back
@@ -106,13 +110,30 @@
      {
        width: 100%;
      }
+     .navbar-dark .navbar-nav .nav-link {
+        color: white;
+        font-size: 1.5vw;
+    }
+    .nav-item
+    {
+        font-weight: bolder;
+        color: red;
+    }
+   
+
      @media only  screen and (max-width:1500px){
          .comapany-name
          {
              height: auto;
          }
+         
      }
-     @media only screen and (max-width: 1200px) {
+     @media only screen and (max-width: 1350px){
+        .inox-back {
+                 background-size: 125%;
+            }
+        }  
+     @media only screen and (max-width: 1200px){
 
         .inox-back
         {
@@ -178,23 +199,15 @@
 }
         
         }
-        @media only screen and (max-width:900px)
-        {
+     @media only screen and (max-width:900px){
             .shapes
-{
-    height: auto;
-}
-        }
-        @media only screen and (max-width: 1500px)
-        {
-            .inox-back
             {
-                background-size: 109%;
+          height: auto;
+                 }
             }
 
-        }
 
-        @media only screen and (max-width: 320px)
+     @media only screen and (max-width: 320px)
         {
             .comapany-name p
             {
@@ -231,7 +244,7 @@
 
 
         }
-        @media only screen and (max-width: 600px)
+     @media only screen and (max-width: 600px)
         {
             .comapany-name p
             {

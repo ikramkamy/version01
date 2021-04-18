@@ -21,6 +21,8 @@ flex-wrap: wrap;
     font-size: 6.5vw;
     font-weight: 700;
     text-align: center;
+    padding-top: 7%;
+    padding-bottom: 7%;
 }
 .service-one
 {
@@ -61,8 +63,16 @@ font-weight: bolder;
 {
     word-spacing: 10px;
     font-size: 2vw;
+
 }
 
+@media only screen and (max-width:1325px){
+.service-container
+{
+    border: none;
+}
+
+}
 @media only screen and (max-width: 320px) {
 
    .services

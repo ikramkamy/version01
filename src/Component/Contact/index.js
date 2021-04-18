@@ -15,7 +15,7 @@ const Conatct=(props)=>{
 <div className="rotate-text"> 
 <div className="logo-container"><img src="/images/logo_Plan de travail 1.png" className="logo-contact"/></div>  
 <div className="coordonees">
-<div className="item-contact"><img src="./images/icons_Plan de travail 1.png " className="icon-size"/>Société Barkets-inox,sise route de Larabâa, Ouled Slama, Daïra de Bougara (Wilaya de Blida)</div>
+<div className="item-contact" id="item-id"><img src="./images/icons_Plan de travail 1.png " className="icon-size"/>Société Barkets-inox,sise route de Larabâa, Ouled Slama, Daïra de Bougara (Wilaya de Blida)</div>
 <div className="item-contact"><img src="./images/icons-02.png" className="icon-size"/>+213 (0) 25 46 31 67 /+213 (0) 540 00 00 24/25</div>
 <div className="item-contact"><img src="./images/icons-03.png" className="icon-size"/>contact@barkets-inox.com</div>
 <div className="item-contact"><img src="./images/icons-04.png" className="icon-size"/>www.barkats-inox.com</div>

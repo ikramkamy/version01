@@ -120,10 +120,11 @@ const getData=()=>
      <Presentation/>
      <Servives/>
      <Produits url="url" />
- 
+     
      
      <Switch>
-          <Route path="/lait">
+     
+        <Route path="/lait">
             
         <div className="exposing-prod">{products.map((el)=> <Expos name={el.name} url={el.url}/>)}</div> 
           </Route>
@@ -142,7 +143,7 @@ const getData=()=>
           </Route>
 
           <Route exact path="/">
-         
+          <div className="exposing-prod">{products.map((el)=> <Expos name={el.name} url={el.url}/>)}</div> 
           </Route>
 </Switch>
      

@@ -23,8 +23,8 @@ function Shapes(props) {
   <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
     <ReactBootStrap.Nav className="mr-auto">
-      <ReactBootStrap.Nav.Link href="#features" style={{color:"white"}}>Accueil</ReactBootStrap.Nav.Link>
-     <ReactBootStrap.NavDropdown title="Services" id="collasible-nav-dropdown">
+      <ReactBootStrap.Nav.Link href="#features" style={{ fontWeight:"bolder" , fontSize:"1.5vw"}} id="my-nav">Accueil</ReactBootStrap.Nav.Link>
+     <ReactBootStrap.NavDropdown title="Services" id="collasible-nav-dropdown" >
         <ReactBootStrap.NavDropdown.Item href="#action/3.1" style={{color:"black"}}>Fabrication de cuves en inox</ReactBootStrap.NavDropdown.Item>
         <ReactBootStrap.NavDropdown.Item href="#action/3.2" style={{color:"black"}}>Fabrication de produits sur-mesure</ReactBootStrap.NavDropdown.Item>
         <ReactBootStrap.NavDropdown.Item href="#action/3.3" style={{color:"black"}}>Fabrication</ReactBootStrap.NavDropdown.Item>
@@ -40,7 +40,7 @@ function Shapes(props) {
     </ReactBootStrap.NavDropdown>
 
 
-    <ReactBootStrap.Nav.Link href="#features" style={{color:"white"}}>Contact</ReactBootStrap.Nav.Link>
+    <ReactBootStrap.Nav.Link href="#features" style={{color:"white",fontWeight:"bolder" , fontSize:"1.5vw"}} className="nav-item">Contact</ReactBootStrap.Nav.Link>
   
 
     
@@ -53,25 +53,7 @@ function Shapes(props) {
     </ReactBootStrap.Nav>
   </ReactBootStrap.Navbar.Collapse>
 </ReactBootStrap.Navbar>
-{/*<Nav 
-  activeKey="/home">
-    <Nav.Item>
-    <Nav.Link href="/home" ><img src="/images/logo_Plan de travail 1.png"  className="logo-nav" /></Nav.Link>
-  </Nav.Item>
-  <Nav.Item>
-    <Nav.Link href="/home" className="shapes-item">Accueil</Nav.Link>
-  </Nav.Item>
-  <Nav.Item>
-    <Nav.Link eventKey="link-1" className="shapes-item">Services</Nav.Link>
-  </Nav.Item>
-  <Nav.Item>
-    <Nav.Link eventKey="link-2" className="shapes-item">Produits</Nav.Link>
-  </Nav.Item>
-  <Nav.Item>
-    <Nav.Link eventKey="link-1" className="shapes-item">Contact</Nav.Link>
-  </Nav.Item>
-  
-</Nav>*/}
+
 </div> 
 
 
@@ -81,9 +63,7 @@ function Shapes(props) {
 <div className="button-container"><Button>Découvrire</Button></div>
 
     </div>
-    
-    
-    <div className="inox-back" style={{ 
+<div className="inox-back" style={{ 
       backgroundImage: `url("/images/image_Plan de travail 1.png")` }}></div>
       
      

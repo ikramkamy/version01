@@ -69,7 +69,14 @@
        align-items: center;
        color: white;
        font-size: 1.2vw;
+       width: 100%;
    }
+   #item-id
+   {
+      
+       text-align: left;
+   }
+
    .icon-size
    {
        width: 4.2em;
