@@ -30,15 +30,8 @@
           color: white;
           font-size: 1.5em;
       }
-      .nav-item :hover 
-      {
-          border-bottom:  1px solid white;
-         
-}
-a:hover
-{
-    text-decoration: none;
-}
+  
+
 #collasible-nav-dropdown a
 {
     text-decoration: none;
@@ -47,12 +40,24 @@ a:hover
     color: black;
     text-decoration: none;
     background-color: transparent;
+    
+}
+a :hover
+{
+    text-decoration: none;
+    outline: none;
+   text-decoration: underline transparent;
 }
       .nav {
         
         display: flex;
         flex-wrap: nowrap;
        
+      }
+    .NavDropdown.Item  a{
+          outline: none;
+          text-decoration: none;
+          color: rgb(18,45,75);
       }
       
       .nav-container

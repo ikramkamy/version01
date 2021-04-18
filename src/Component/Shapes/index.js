@@ -32,7 +32,7 @@ function Shapes(props) {
     </ReactBootStrap.NavDropdown>
     
     <ReactBootStrap.NavDropdown title="Produits" id="collasible-nav-dropdown">
-        <ReactBootStrap.NavDropdown.Item href="#id3" style={{color:"black"}}><a href="#id3">Lait</a></ReactBootStrap.NavDropdown.Item>
+        <ReactBootStrap.NavDropdown.Item href="#id3" style={{color:"black"}}><a style={{textDecorationSkip:"none"}} href="#id3">Lait</a></ReactBootStrap.NavDropdown.Item>
         <ReactBootStrap.NavDropdown.Item href="#id3" style={{color:"black"}}><a href="#id3">Jus</a></ReactBootStrap.NavDropdown.Item>
         <ReactBootStrap.NavDropdown.Item href="#id3" style={{color:"black"}}><a href="#id3">Dattes</a></ReactBootStrap.NavDropdown.Item>
         <ReactBootStrap.NavDropdown.Item href="#id3" style={{color:"black"}}><a href="#id3">Chocolat</a></ReactBootStrap.NavDropdown.Item>
