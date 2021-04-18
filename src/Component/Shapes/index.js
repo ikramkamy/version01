@@ -60,7 +60,7 @@ function Shapes(props) {
 <div className="comapany-name">ACIER INOXYDABLE
 <p>Très haute résistance mécanique<br/> et thermique, durable et ne <br/> requiére que peu d'entretien.</p>
 </div>
-<div className="button-container"><Button>Découvrire</Button></div>
+<div className="button-container"><Button>Découvrir</Button></div>
 
     </div>
 <div className="inox-back" style={{ 
