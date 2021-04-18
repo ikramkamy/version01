@@ -39,10 +39,10 @@ const milfunc=()=>{milk.map((el)=>{<div >{el.name}</div>})}
         
 <div className="org-product">
       <div className="liste-prod">
-       <Link to="/lait" className="pro-item" style={{textDecoration:"none"}}><div className="pro-item"  >Laits</div></Link> 
+       <Link to="/lait" className="pro-item" style={{textDecoration:"none"}}><div className="pro-item"  >Lait</div></Link> 
       <Link to="/jus" className="pro-item" style={{textDecoration:"none"}}><div className="pro-item" >Jus</div></Link> 
       <Link to="/dattes" className="pro-item" style={{textDecoration:"none"}}> <div className="pro-item">Chocolat</div>  </Link> 
-       <Link to="/chocolat" className="pro-item" style={{textDecoration:"none"}}> <div className="pro-item"> Dattes</div> </Link> 
+       <Link to="/chocolat" className="pro-item" style={{textDecoration:"none"}}> <div className="pro-item"> Datte</div> </Link> 
        
 </div>
     
