@@ -7,10 +7,10 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
 function Services (props) {
   const matches = useMediaQuery('(min-width:600px)');
   return (
-    <div className="services" style={{ 
+    <div className="services" id="id1" style={{ 
       backgroundImage: `url("/images/fond-01.jpg")` }}>
     <div className="services-cont">
-    <div className="servive-title">NOS SERVICES</div>
+    <div className="servive-title" >NOS SERVICES</div>
     <div className="service-one" style={{ 
       backgroundImage: `url("/images/forme 1_Plan de travail 1.png")` }}>
     <div className="service-container">

@@ -9,10 +9,6 @@ function Produits (props) {
   const matches = useMediaQuery('(min-width:1200px)');
   const [milk,setMilk ]=useState([]);
   //const {addlait}=props;
-
-
-
- 
 const getData=()=>
   fetch("products1.json", {
     headers: {
@@ -30,9 +26,9 @@ const getData=()=>
    },[])
 const milfunc=()=>{milk.map((el)=>{<div >{el.name}</div>})}
   return (
-    <div className="produit" style={{ 
+    <div className="produit" id="id3" style={{ 
       backgroundImage: `url("/images/fond-01.jpg")` }}>
-        <div className=" product-title" style={{color:"grey"}}>NOS PRODUITS
+        <div className=" product-title" style={{color:"grey"}} >NOS PRODUITS
         <div className="products-discreption">Tous nos produits sont classés selon le secteur d'activité </div>
        
         </div>

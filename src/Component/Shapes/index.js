@@ -19,28 +19,28 @@ function Shapes(props) {
 
 
 <ReactBootStrap.Navbar collapseOnSelect expand="lg"  variant="dark">
-  <ReactBootStrap.Navbar.Brand href="#home"><img src="./images/logo_Plan de travail 1.png" className="logo-nav" /></ReactBootStrap.Navbar.Brand>
+  <ReactBootStrap.Navbar.Brand href="#home"><img src="./images/logo_Plan de travail 1.png" className="logo-nav"/></ReactBootStrap.Navbar.Brand>
   <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
     <ReactBootStrap.Nav className="mr-auto">
       <ReactBootStrap.Nav.Link href="#features" style={{ fontWeight:"bolder" , fontSize:"1.5vw"}} id="my-nav">Accueil</ReactBootStrap.Nav.Link>
      <ReactBootStrap.NavDropdown title="Services" id="collasible-nav-dropdown" >
-        <ReactBootStrap.NavDropdown.Item href="#action/3.1" style={{color:"black"}}>Fabrication de cuves en inox</ReactBootStrap.NavDropdown.Item>
-        <ReactBootStrap.NavDropdown.Item href="#action/3.2" style={{color:"black"}}>Fabrication de produits sur-mesure</ReactBootStrap.NavDropdown.Item>
-        <ReactBootStrap.NavDropdown.Item href="#action/3.3" style={{color:"black"}}>Fabrication</ReactBootStrap.NavDropdown.Item>
+        <ReactBootStrap.NavDropdown.Item href="#action/3.1" style={{color:"black"}}><a href="#id1">Fabrication de cuves en inox </a></ReactBootStrap.NavDropdown.Item>
+        <ReactBootStrap.NavDropdown.Item href="#action/3.2" style={{color:"black"}}><a href="#id1">Fabrication de produits sur-mesure</a></ReactBootStrap.NavDropdown.Item>
+        <ReactBootStrap.NavDropdown.Item href="#action/3.3" style={{color:"black"}}><a href="#id1">Fabrication</a></ReactBootStrap.NavDropdown.Item>
     <ReactBootStrap.NavDropdown.Divider/>
     </ReactBootStrap.NavDropdown>
-
+    
     <ReactBootStrap.NavDropdown title="Produits" id="collasible-nav-dropdown">
-        <ReactBootStrap.NavDropdown.Item href="#action/3.1" style={{color:"black"}}>Lait</ReactBootStrap.NavDropdown.Item>
-        <ReactBootStrap.NavDropdown.Item href="#action/3.2" style={{color:"black"}}>Jus</ReactBootStrap.NavDropdown.Item>
-        <ReactBootStrap.NavDropdown.Item href="#action/3.3" style={{color:"black"}}>Dattes</ReactBootStrap.NavDropdown.Item>
-        <ReactBootStrap.NavDropdown.Item href="#action/3.3" style={{color:"black"}}>Chocolat</ReactBootStrap.NavDropdown.Item>
+        <ReactBootStrap.NavDropdown.Item href="#id3" style={{color:"black"}}><a href="#id3">Lait</a></ReactBootStrap.NavDropdown.Item>
+        <ReactBootStrap.NavDropdown.Item href="#id3" style={{color:"black"}}><a href="#id3">Jus</a></ReactBootStrap.NavDropdown.Item>
+        <ReactBootStrap.NavDropdown.Item href="#id3" style={{color:"black"}}><a href="#id3">Dattes</a></ReactBootStrap.NavDropdown.Item>
+        <ReactBootStrap.NavDropdown.Item href="#id3" style={{color:"black"}}><a href="#id3">Chocolat</a></ReactBootStrap.NavDropdown.Item>
     <ReactBootStrap.NavDropdown.Divider/>
     </ReactBootStrap.NavDropdown>
 
 
-    <ReactBootStrap.Nav.Link href="#features" style={{color:"white",fontWeight:"bolder" , fontSize:"1.5vw"}} className="nav-item">Contact</ReactBootStrap.Nav.Link>
+    <ReactBootStrap.Nav.Link href="#id4" style={{color:"white",fontWeight:"bolder"}} className="nav-item">Contact</ReactBootStrap.Nav.Link>
   
 
     
