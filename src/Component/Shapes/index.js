@@ -23,7 +23,7 @@ function Shapes(props) {
   <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
     <ReactBootStrap.Nav className="mr-auto">
-      <ReactBootStrap.Nav.Link href="#features" style={{ fontWeight:"bolder" , fontSize:"1.5vw"}} id="my-nav">Accueil</ReactBootStrap.Nav.Link>
+      <ReactBootStrap.Nav.Link href="#features" style={{ fontWeight:"bolder" }} id="my-nav">Accueil</ReactBootStrap.Nav.Link>
      <ReactBootStrap.NavDropdown title="Services" id="collasible-nav-dropdown" >
         <ReactBootStrap.NavDropdown.Item href="#action/3.1" style={{color:"black"}}><a href="#id1">Fabrication de cuves en inox </a></ReactBootStrap.NavDropdown.Item>
         <ReactBootStrap.NavDropdown.Item href="#action/3.2" style={{color:"black"}}><a href="#id1">Fabrication de produits sur-mesure</a></ReactBootStrap.NavDropdown.Item>

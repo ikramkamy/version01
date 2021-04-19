@@ -21,7 +21,7 @@
       .shapes button
       {
           background-color: white;
-          color: blue;
+          color: #014898;
           font-weight: 800;
           border-radius: 25px;
       }
@@ -106,7 +106,7 @@ a :hover
      .shapes .button-container button
      {
          background-color: white;
-         color: blue;
+         color: #014898;
      }
      .inox-back
      {
@@ -220,6 +220,12 @@ a :hover
            {
              height: auto;
              }
+             .navbar-dark .navbar-nav .nav-link {
+        
+                font-size: 2.5vw;
+                
+               
+            }
         
         }
      @media only screen and (max-width:900px){
@@ -266,6 +272,10 @@ a :hover
                 color: white;
                
             }
+            .navbar-dark .navbar-nav .nav-link {
+            
+                font-size: 3.5vw;
+            }
     }
      @media only screen and (max-width: 600px){
             .comapany-name p
@@ -288,12 +298,17 @@ a :hover
         .shapes
         {
             height: auto;
+            background-size: auto;
            }
         .map 
         {
             width: 40%;
         }
 
-
+        .navbar-dark .navbar-nav .nav-link {
+            
+            font-size: 3.5vw;
+        }
+        
 
         }
