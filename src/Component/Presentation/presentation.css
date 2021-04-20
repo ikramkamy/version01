@@ -54,15 +54,22 @@
          margin-top: 20%;
 
         }
+        .presentation
+        {
+            height: 40vh;
+            margin-top: 10%;
+            background-size: auto;
+            margin-top: 10%;
+        }
         
     }
     @media only screen and (max-width: 320px) {
         .presentation
         {
-            height: auto;
+            height: 40vh;
             margin-top: 10%;
-            background-size: 162%;
-            margin-top: 20%;
+            background-size: auto;
+            margin-top: 10%;
         }
      .presentation h1
         {

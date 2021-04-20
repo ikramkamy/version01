@@ -13,8 +13,10 @@ import SimpleMediaQuery from './Component/Responsive';
 import Expos from './Component/Exposprod';
 import { BrowserRouter as Router,Switch, Route } from "react-router-dom";
 
+document.title="Barkatinox";
 
 function App() {
+  
   const [products,setProducts]= useState([]);
   const [products1,setProducts1]= useState([]);
   const [products2,setProducts2]= useState([]);

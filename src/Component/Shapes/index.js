@@ -10,6 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //import { useContext, useEffect, useState } from 'react';
 
 function Shapes(props) {
+
   const matches = useMediaQuery('(min-width:320px)');
   return (
     <div className="top-nav">

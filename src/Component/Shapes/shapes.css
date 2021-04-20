@@ -24,6 +24,9 @@
           color: #014898;
           font-weight: 800;
           border-radius: 25px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
       }
       .shapes-item
       {
@@ -144,6 +147,11 @@ a :hover
 {
     font-size: 20vw;
 }
+.navbar-nav .dropdown-menu {
+    position: absolute;
+    float: none;
+}
+
      @media only  screen and (max-width:1500px){
          .comapany-name
          {
@@ -261,6 +269,7 @@ a :hover
                 align-items: center;
                 flex-direction: column;
                 background-size: auto;
+                height: auto;
 
             }
             .item-contact {
