@@ -13,8 +13,6 @@ function Presentation(props) {
 
 </div>
 
-
-
 );
 }
 export default  Presentation;
