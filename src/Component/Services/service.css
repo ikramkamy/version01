@@ -159,7 +159,7 @@ font-size: 4.5vw;
    {
        height: auto;
        width: 70%;
-       height: 50vh;
+       height: 40vh;
        margin-top: 0%;
        margin-bottom: 0%;
        padding-top:  8%;
@@ -187,6 +187,11 @@ font-size: 3vw;
 }
 .service-container h1 {
     font-size: 6vw;
+    
+}.servive-title
+{
+   
+    font-size: 10vw;
     
 }
 

@@ -148,10 +148,14 @@
     {
         border-right: none;
         height: fit-content;
+        padding-bottom: 6%;
     }
     .coordonees
     {
         width: 100%;
+        height: 70%;
+       display: flex;
+      justify-content: flex-end;
     }
     .map
     {
