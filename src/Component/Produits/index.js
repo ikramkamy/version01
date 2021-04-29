@@ -4,8 +4,10 @@ import './produit.css';
 import {  useEffect, useState } from 'react';
 import React from 'react';
 import {Link} from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 function Produits (props) {
+  const { t, i18n } = useTranslation();
   const matches = useMediaQuery('(min-width:1200px)');
   const [milk,setMilk ]=useState([]);
   //const {addlait}=props;
@@ -28,42 +30,20 @@ const milfunc=()=>{milk.map((el)=>{<div >{el.name}</div>})}
   return (
     <div className="produit" id="id3" style={{ 
       backgroundImage: `url("/images/fond-01.jpg")` }}>
-        <div className=" product-title" style={{color:"grey"}} >NOS PRODUITS
-        <div className="products-discreption">Tous nos produits sont classés selon le secteur d'activité </div>
+        <div className=" product-title" style={{color:"grey"}} >{t(`NOS PRODUITS.label`)}
+        <div className="products-discreption">{t(`Tous nos produits sont classés selon le secteur d'activité.label`)} </div>
        
         </div>
         
 <div className="org-product">
       <div className="liste-prod">
-       <Link to="/lait" className="pro-item" style={{textDecoration:"none"}}><div className="pro-item"  >Lait</div></Link> 
-      <Link to="/jus" className="pro-item" style={{textDecoration:"none"}}><div className="pro-item" >Jus</div></Link> 
-      <Link to="/dattes" className="pro-item" style={{textDecoration:"none"}}> <div className="pro-item">Chocolat</div>  </Link> 
-       <Link to="/chocolat" className="pro-item" style={{textDecoration:"none"}}> <div c
-       lassName="pro-item"> Datte</div> </Link> 
+       <Link to="/lait" className="pro-item" style={{textDecoration:"none"}}><div className="pro-item"  >{t(`Lait.label`)}</div></Link> 
+      <Link to="/jus" className="pro-item" style={{textDecoration:"none"}}><div className="pro-item" >{t(`Jus.label`)}</div></Link> 
+      <Link to="/dattes" className="pro-item" style={{textDecoration:"none"}}> <div className="pro-item">{t(`Chocolat.label`)}</div>  </Link> 
+       <Link to="/chocolat" className="pro-item" style={{textDecoration:"none"}}> <div className="pro-item"> {t(`Datte.label`)}</div> </Link> 
        
 </div>
     
-      {/*
- <div className="expos-item">
-      <div className="image" style={{borderRight:"2px solid  blue"}}><img src="/images/3_Plan de travail 1.png " className="products-size"/></div>
-      <div className="image-title">Cuve double paroi</div>
-      </div>
-      <div className="expos-item">
-      <div className="image" style={{borderRight:"2px solid  blue"}}><img src="/images/2_Plan de travail 1.png " className="products-size"/></div>
-      <div className="image-title">Cuve réfrigérée</div>
-
-      </div>
-      <div className="expos-item">
-      <div className="image"><img src={props.url} className="products-size"/></div>
-    <div className="image-title">Mixeur</div>
-      </div>
-
-      */}
-     
-
-
-    
-  
     </div>
     </div>
   );

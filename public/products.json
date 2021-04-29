@@ -3,25 +3,33 @@
     
     {
         "id":  1, 
-        "name": "Cuve simple paroi ",
+        "name": "Cuve simple paroi",
+        "nameeng":"Single wall tank",
+        "namear":"حاويات",
         "url":"/images/4_Plan de travail 1.png"
     
     },
     {
         "id":  2, 
         "name": "Cuve double paroi ",
+        "nameeng": " ",
+        "namear": " ",
         "url":"images/3_Plan de travail 1.png"
     
     },
     {
         "id":  3, 
         "name": "Cuve réfrigérée ",
+        "namear": " ",
+        "nameeng": " ",
         "url":"/images/1_Plan de travail 1.png"
     
     },
     {
         "id":  4, 
         "name": "Mixeur ",
+        "namear": "",
+        "nameeng": "",
         "url":"/images/2_Plan de travail 1.png"
     
     }

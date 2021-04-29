@@ -5,6 +5,8 @@
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .image-title
 {

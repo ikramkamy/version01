@@ -1,6 +1,6 @@
 
 import './App.css';
-import React from 'react'
+import React,{ Component, Suspense } from 'react'
 import Shapes from './Component/Shapes';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,7 +12,9 @@ import { useState,useEffect } from 'react';
 import SimpleMediaQuery from './Component/Responsive';
 import Expos from './Component/Exposprod';
 import { BrowserRouter as Router,Switch, Route } from "react-router-dom";
-
+import './i18n';
+import LanguageSelector from './LanguageSelector';
+import { Provider } from 'react-redux';
 document.title="Barkatinox";
 
 function App() {
@@ -118,6 +120,7 @@ const getData=()=>
 
 
 
+     <Suspense fallback={null}>
      <Shapes/>
      <Presentation/>
      <Servives/>
@@ -128,7 +131,7 @@ const getData=()=>
      
         <Route path="/lait">
             
-        <div className="exposing-prod">{products.map((el)=> <Expos name={el.name} url={el.url}/>)}</div> 
+        <div className="exposing-prod">{products.map((el)=> <Expos name={el.name} namear={el.namear} namefr={el.nameeng} url={el.url}/>)}</div> 
           </Route>
           <Route path="/jus">
             
@@ -137,21 +140,21 @@ const getData=()=>
 
              <Route path="/dattes">
             
-             <div className="exposing-prod"> {products2.map((el)=> <Expos name={el.name} url={el.url}/>)}</div>
+             <div className="exposing-prod"> {products2.map((el)=> <Expos name={el.name} namear={el.namear} namefr={el.nameeng} url={el.url}/>)}</div>
              </Route>
              <Route path="/chocolat">
             
-             <div className="exposing-prod"> {products3.map((el)=> <Expos name={el.name} url={el.url}/>)}</div>
+             <div className="exposing-prod"> {products3.map((el)=> <Expos name={el.name} namear={el.namear} namefr={el.nameeng} url={el.url}/>)}</div>
           </Route>
 
           <Route exact path="/">
-          <div className="exposing-prod">{products.map((el)=> <Expos name={el.name} url={el.url}/>)}</div> 
+          <div className="exposing-prod">{products.map((el)=> <Expos name={el.name} namear={el.namear} namefr={el.nameeng} url={el.url}/>)}</div> 
           </Route>
 </Switch>
      
      <Conatct/>
 
-
+     </Suspense>
 
 </Router>
     </div>

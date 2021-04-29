@@ -3,8 +3,9 @@ import './service.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 //import { useContext, useEffect, useState } from 'react';
-
+import { useTranslation } from 'react-i18next';
 function Services (props) {
+  const { t, i18n } = useTranslation();
   const matches = useMediaQuery('(min-width:600px)');
   return (
     <div className="services" id="id1" style={{ 
@@ -14,25 +15,25 @@ function Services (props) {
     <div className="service-one" style={{ 
       backgroundImage: `url("/images/forme 1_Plan de travail 1.png")` }}>
     <div className="service-container">
-     <h1>FABRICATION </h1>
-     <h2 id="sp-one">DE CUVED EN INOX</h2>
-     <p>L'inox est trés recommandé dans l'industrie des agro-alimentaire ou parapharmacetique pour leur aspect d'hygiéne et leur durabilité. </p>
+     <h1>{t(`FABRICATIONlabel`)} </h1>
+     <h2 id="sp-one">{t(`DE CUVES EN INOXlabel`)}</h2>
+     <p>{t(`L'inox est trés recommandé dans l'industrie des agro-alimentaires et parapharmacetiques pour leur aspect d'hygiéne et leur durabilité.label`)} </p>
      </div>
      </div>
 
      <div className="service-one mid" style={{ 
       backgroundImage: `url("/images/formes 2_Plan de travail 1.png")` }}>
      <div className="service-container">
-     <h1>FABRICATION </h1>
-     <h2>DE PRODUITS SUR MESURE</h2>
-     <p>Quel que soit votre besoin, vous pouvez faire appelle à notre expertises pous vous confectionner des équipement sur-mesure selon votre besoin. </p>
+     <h1>{t(`FABRICATIONlabel`)} </h1>
+     <h2>{t(`DE PRODUITS SUR MESURElabel`)}</h2>
+     <p>{t(`Quel que soit votre besoin, vous pouvez faire appel à notre expertises pous vous confectionner des équipements sur-mesure selon votre besoin.label`)} </p>
      </div>
      </div>
      <div className="service-one" style={{ 
       backgroundImage: `url("/images/forme 1_Plan de travail 1.png")` }}>
      <div className="service-container">
-     <h1>Installation</h1>
-     <p> Après la fabrication nous accompagnons nos clients dans l’installation de nos produits au sein de leur compartiments.</p>
+     <h1>{t(`Installationlabel`)}</h1>
+     <p> {t(`Après la fabrication nous accompagnons nos clients dans l’installation de nos produits au sein de leur compartiments.label`)}</p>
      </div>
       </div>
       </div>
