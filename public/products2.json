@@ -4,31 +4,43 @@
     {
         "id":  1, 
         "name": "Pompe de transfert",
-        "url":"/images/4_Plan de travail 1.png"
+        "url":"/images/4_Plan de travail 1.png",
+        "namear":"Pompe de transfert",
+        "nameeng":"Pompe de transfert"
     
     },
     {
         "id":  2, 
         "name": "Conche à bille",
-        "url":"images/3_Plan de travail 1.png"
+        "url":"images/3_Plan de travail 1.png",
+        "namear":"Conche à bille",
+        "nameeng":"Conche à bille"
+        
     
     },
     {
         "id":  3, 
         "name": "Cuve doubles paroies ",
-        "url":"/images/1_Plan de travail 1.png"
+        "url":"/images/1_Plan de travail 1.png",
+        "namear":"Cuve doubles paroies",
+        "nameeng":"Cuve doubles paroies"
     
     },
     {
         "id":  4, 
         "name": "Tanquke de stocage ",
-        "url":"/images/2_Plan de travail 1.png"
+        "url":"/images/2_Plan de travail 1.png",
+        "namear":"Tanquke de stocage",
+        "nameeng":"Tanquke de stocage"
     
     },
     {
         "id":  5, 
         "name": "Mixeur double agitation",
-        "url":"/images/2_Plan de travail 1.png"
+        "url":"/images/2_Plan de travail 1.png",
+        "namear":"Mixeur double agitation",
+        "nameeng":"Mixeur double agitation"
+
     
     }
    ]

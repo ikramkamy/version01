@@ -135,7 +135,7 @@ const getData=()=>
           </Route>
           <Route path="/jus">
             
-          <div className="exposing-prod"> {products1.map((el)=> <Expos name={el.name} url={el.url}/>)} </div>
+          <div className="exposing-prod"> {products1.map((el)=> <Expos name={el.name} namear={el.namear} namefr={el.nameeng} url={el.url}/>)} </div>
              </Route>
 
              <Route path="/dattes">

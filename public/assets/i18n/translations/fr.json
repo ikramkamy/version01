@@ -1,11 +1,35 @@
 {
+    "Accueil.label":"Accueil",
+    "Services.label":"Services",
+    "Fabrication de cuves en inox.label":"Fabrication de cuves en inox",
+    "Fabrication de produits sur-mesure.label":"Fabrication de produits sur-mesure",
+    "Produits.label":"Produits",
+    "Lait.label":"Lait",
+    "Jus.label":"Jus",
+    "Dattes.label":"Dattes",
+    "Chocolat.label":"Chocolat",
+    "Contact.label":"Contact",
+   "ACIER INOXYDABLE.label":"ACIER INOXYDABLE",
+    "Très haute résistance mécanique.label":"Très haute résistance mécanique",
+    "et thermique, durable et ne.label":"et thermique, durable et ne",
     "entreprise.label":"Entreprise",
-    "fabrication.label":"Fabrication",
-    "Comptant plus de 21 ans d'éxpériences.label":"Comptant plus de 21 ans d'éxpériences.label",
     "Cuve simple paroi.label":"Cuve simple paroi",
     "PRÉSENTATION DE L'ENTREPRISE.label":"PRÉSENTATION DE L'ENTREPRISE",
+   "Découvrir.label":"Découvrir",
+   "NOS SERVICES.label":"NOS SERVICES",
+    "Barckat Inox se spécialise dans la fabrication de cuves et d'équipements à base de matiére inoxydable déstinée pour la collecte de lait et la production fromagére.label":"Barckat Inox se spécialise dans la fabrication de cuves et d'équipements à base de matiére inoxydable déstinée pour la collecte de lait et la production fromagére",
+    "Fabrication.label":"Fabrication",
+    "DE CUVES EN INOX.label":"DE CUVES EN INOX",
+    "L'inox est trés recommandé dans l'industrie des agro-alimentaires et parapharmacetiques pour leur aspect d'hygiéne et leur durabilité.label":"L'inox est trés recommandé dans l'industrie des agro-alimentaires et parapharmacetiques pour leur aspect d'hygiéne et leur durabilité.label",
+   "Quel que soit votre besoin, vous pouvez faire appel à notre expertises pous vous confectionner des équipements sur-mesure selon votre besoin.label":"Quel que soit votre besoin, vous pouvez faire appel à notre expertises pous vous confectionner des équipements sur-mesure selon votre besoin.label",
+    "Installation.labe":"Installation",
+    "Après la fabrication nous accompagnons nos clients dans l’installation de nos produits au sein de leur compartiments.label":"Après la fabrication nous accompagnons nos clients dans l’installation de nos produits au sein de leur compartiments.label",
+    "Comptant plus de 21 ans d'éxpériences.label":"Comptant plus de 21 ans d'éxpériences",
+    "Tous nos produits sont classés selon le secteur d'activité.label":"Tous nos produits sont classés selon le secteur d'activité",
     "NOS PRODUITS.label":"NOS PRODUITS",
-    "Découvrir.label":"Découvrir",
-    "Services.label":"Services",
-    "Fabrication de cuves en inox.label":"Fabrication de cuves en inox"
+    
+    "FABRICATION.label":"FABRICATION",
+    "Installation.label":"Installation"
+    
+   
 }

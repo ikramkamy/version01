@@ -1,12 +1,38 @@
 
-{
+{    "Accueil.label":"استقبال",
     "entreprise.label":"الشركة",
-    "fabrication.label":"الصناعة",
-    "Comptant plus de 21 ans d'éxpériences.label":"21 سنة",
+    "Produits.label" : "المنتوجات",
+    "Jus.label":"العصير",
+    "Dattes.label":"التمور",
+    "Lait.label":"الحليب",
+    "Chocolat.label":"الشكولاطة",
+    "Contact.label":"تواصل",
+    "Services.label":"الخدمات",
+    "Fabrication de cuves en inox.label":"صناعة صهاريج من الفولاد", 
+   "DE Fabrication de produits sur-mesure.label":"تصنيع المنتجات حسب الطلب",
+   "Fabrication.label":"تصنيع",
+    "ACIER INOXYDABLE.label":"فولاذ لايصدأ",
+    "Très haute résistance mécanique.label":"مقاومة ميكانيكية",
+    "et thermique, durable et ne.label":"و حرارية عالية جدا، متين و",
+    "Comptant plus de 21 ans d'éxpériences.label":"اكثر من 21 سنة من الخبرة في مجال صناعة الفولاذ",
+    "requiére que peu d'entretien.label":"   يتطلب القليل من الصيانة.",
+    "Barckat Inox se spécialise dans la fabrication de cuves et d'équipements à base de matiére inoxydable déstinée pour la collecte de lait et la production fromagére.label":"بركات اينوكس متخصص في صناعة الحاويات على اسساس مواد لا تصدا, موجهة لجمع الحليب و صناعة الاجبان",
+    "NOS SERVICES.label":"خدماتنا",
+    "FABRICATION.label":"تصنيع",
+    "DE CUVES EN INOX.label":"صهاريج من الفولاذ المقاوم للصدأ",
+    "L'inox est trés recommandé dans l'industrie des agro-alimentaires et parapharmacetiques pour leur aspect d'hygiéne et leur durabilité.label":"يوصى بشدة باستخدام الفولاذ المقاوم للصدأ في صناعة الأغذية الزراعية أو الأدوية شبه الصيدلانية لجانبها الصحي ومتانتها.",
+   "DE PRODUITS SUR MESURE.label":"منتجات حسب الطلب",
+   "Quel que soit votre besoin, vous pouvez faire appel à notre expertises pous vous confectionner des équipements sur-mesure selon votre besoin.label":"مهما كانت احتياجاتك ، يمكنك الاستعانة بخبرتنا لصنع معدات مصممة خصيصًا لك وفقًا لاحتياجاتك",
+   "Installation.label":"التركيب",
+   "Après la fabrication nous accompagnons nos clients dans l’installation de nos produits au sein de leur compartiments.label":"بعد التصنيع ، ندعم عملائنا في تركيب منتجاتنا في مقصوراتهم.",
+   "Tous nos produits sont classés selon le secteur d'activité.label":"جميع منتجاتنا مصنفة حسب قطاع النشاط",
+   
     "Cuve simple paroi.label":"حاويات",
     "PRÉSENTATION DE L'ENTREPRISE.label":"حول الشركة",
     "NOS PRODUITS.label":"منتجاتنا",
     "Découvrir.label":"اكتشف",
-    "Services.label":"الخدمات",
-    "Fabrication de cuves en inox.label":"صناعة الحاويات"
+    "Société Barkatinox,sise route de Larabâa, Ouled Slama, Daïra de Bougara (Wilaya de Blida).label":"شركة باركات اينوكس، طريق الأربعاء، أولاد سلامة، دائرة بوقارة (ولاية البليدة)"
+    
+    
+
 }

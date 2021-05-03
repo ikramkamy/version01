@@ -5,7 +5,7 @@
         "id":  1, 
         "name": "Cuve simple paroi",
         "nameeng":"Single wall tank",
-        "namear":"حاويات",
+        "namear":"صهاريج احادية الحاجز",
         "url":"/images/4_Plan de travail 1.png"
     
     },
@@ -13,14 +13,14 @@
         "id":  2, 
         "name": "Cuve double paroi ",
         "nameeng": " ",
-        "namear": " ",
+        "namear": "صهاريج ثنائية الحاجز ",
         "url":"images/3_Plan de travail 1.png"
     
     },
     {
         "id":  3, 
         "name": "Cuve réfrigérée ",
-        "namear": " ",
+        "namear": "صهريج للتجميد ",
         "nameeng": " ",
         "url":"/images/1_Plan de travail 1.png"
     
@@ -28,7 +28,7 @@
     {
         "id":  4, 
         "name": "Mixeur ",
-        "namear": "",
+        "namear": "خلاط",
         "nameeng": "",
         "url":"/images/2_Plan de travail 1.png"
     

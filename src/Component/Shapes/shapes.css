@@ -178,9 +178,11 @@ a :hover
         }
         .second-laguage-selec
         {
-           display: flex; 
-           width: 100%;
-           justify-content: center;
+            display: flex;
+            width: 100%;
+            justify-content: flex-end;
+            align-items: inherit;
+            height: 100%;
         }
         .langue-botton
 {
@@ -254,6 +256,14 @@ a :hover
                 
                
             }
+            .langue-botton
+        {
+           
+            position: fixed;
+            margin-top: 250px;
+         margin-right: 30px;
+        
+        }
         
         }
      @media only screen and (max-width:900px){
@@ -355,12 +365,14 @@ a :hover
         /*******************************************************************************the botton for switching langages********************************************************/
         .langue-botton
         {
-           
-            width: 50%;
+           width: 50px;
+            margin-right: 30px;
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
             align-items: center;
-            font-size: 2vw;
+            font-size: 1vw;
+            background-color: #014898;
+            position: fixed;
         
         }
         

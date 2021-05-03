@@ -4,8 +4,8 @@
         {
             "id":  1, 
             "name": "Postérisateur ",
-            "namear":"",
-            "nameeng":"",
+            "namear":"Postérisateur",
+            "nameeng":"Postérisateur",
             "url":"/images/4_Plan de travail 1.png"
         
         },
@@ -13,50 +13,50 @@
             "id":  2, 
             "name": "Cuve de stockage doubles paroies ",
             "url":"images/3_Plan de travail 1.png",
-            "nameeng":"",
-            "namear":""
+            "nameeng":"Cuve de stockage doubles paroies",
+            "namear":"Cuve de stockage doubles paroies"
         },
         {
             "id":  3, 
             "name": "Cuve de stockage triple paroies eau chaude",
             "url":"/images/2_Plan de travail 1.png",
-            "nameeng":"",
-            "namear":""
+            "nameeng":"Cuve de stockage triple paroies eau chaude",
+            "namear":"Cuve de stockage triple paroies eau chaude"
         },
         {
             "id":  5, 
             "name": "Cuve de stockage triple paroies eau glacée ",
             "url":"/images/1_Plan de travail 1.png",
-            "nameeng":"",
-            "namear":""
+            "nameeng":"Cuve de stockage triple paroies eau glacée",
+            "namear":"Cuve de stockage triple paroies eau glacée"
         },
         {
             "id":  6, 
             "name": "Cuve réfrigérée ",
             "url":"/images/1_Plan de travail 1.png",
-            "namear":"",
-            "nameeng":""
+            "namear":"Cuve réfrigérée",
+            "nameeng":"Cuve réfrigérée"
         },
         {
             "id":  7, 
             "name": "Cuve forme carrée ",
             "url":"/images/1_Plan de travail 1.png",
-            "namear":"",
-            "nameeng":""
+            "namear":"Cuve forme carrée",
+            "nameeng":"Cuve forme carrée"
         },
         {
             "id":  8, 
             "name": "Mixeur ",
             "url":"/images/1_Plan de travail 1.png",
-            "namear":"",
-            "nameeng":""
+            "namear":"Mixeur",
+            "nameeng":"Mixeur"
         },
         {
             "id":  9, 
             "name": "Pompe",
             "url":"/images/1_Plan de travail 1.png",
-            "namear":"",
-            "nameeng":""
+            "namear":"Pompe",
+            "nameeng":"Pompe"
         }
         
         ]

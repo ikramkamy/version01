@@ -11,9 +11,9 @@ const LanguageSelector = () => {
 
   return (
     <div onChange={changeLanguage} style={{color:"white"}} className="langue-botton">
-      <input type="radio" value="en" name="language"  id="eng"/> English
-      <input type="radio" value="ar" name="language" id="arb"/> Arab
-      <input type="radio" value="fr" name="language" defaultChecked id="frn" /> Français
+       <span> <input type="radio" value="en" name="language"  id="eng"  /> En</span>
+      <span><input type="radio" value="fr" name="language"  id="frn"  /> Fr</span> 
+    <span><input type="radio" value="ar" name="language" id="arb" /> Ar</span>
       
     </div>
   )

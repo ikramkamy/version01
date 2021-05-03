@@ -13,11 +13,16 @@ import LanguageSelector from '../../LanguageSelector';
 function Shapes(props) {
   const { t, i18n } = useTranslation();
   const matches = useMediaQuery('(min-width:320px)');
+
+const remove=()=>{
+document.getElementsByClassName("second-laguage-selec").style
+
+}
   return (
     <div className="top-nav">
     <div className="shapes" style={{ 
       backgroundImage: `url("/images/background_Plan de travail 1.png")` }}>
-        <div className="second-laguage-selec"><LanguageSelector /> </div> 
+        <div className="second-laguage-selec"><LanguageSelector/> </div> 
 <div className="nav-container">
 
 
@@ -30,7 +35,7 @@ function Shapes(props) {
      <ReactBootStrap.NavDropdown title={t("Services.label")} id="collasible-nav-dropdown" >
         <ReactBootStrap.NavDropdown.Item href="#action/3.1" style={{color:"black"}}><a href="#id1">{t(`Fabrication de cuves en inox.label`)} </a></ReactBootStrap.NavDropdown.Item>
         <ReactBootStrap.NavDropdown.Item href="#action/3.2" style={{color:"black"}}><a href="#id1">{t(`Fabrication de produits sur-mesure.label`)}</a></ReactBootStrap.NavDropdown.Item>
-        <ReactBootStrap.NavDropdown.Item href="#action/3.3" style={{color:"black"}}><a href="#id1">{t(`Fabrication.label`)}</a></ReactBootStrap.NavDropdown.Item>
+        <ReactBootStrap.NavDropdown.Item href="#action/3.3" style={{color:"black"}}><a href="#id1">{t("Fabrication.label")}</a></ReactBootStrap.NavDropdown.Item>
     <ReactBootStrap.NavDropdown.Divider/>
     </ReactBootStrap.NavDropdown>
     
@@ -61,7 +66,7 @@ function Shapes(props) {
 
 
 <div className="comapany-name">{t(`ACIER INOXYDABLE.label`)}
-<p>{t(`Très haute résistance mécanique`)}<br/> t{(`et thermique, durable et ne.label`)} <br/> {t(`requiére que peu d'entretien.label`)}</p>
+<p>{t(`Très haute résistance mécanique.label`)}<br/> {t(`et thermique, durable et ne.label`)} <br/> {t(`requiére que peu d'entretien.label`)}</p>
 </div>
 <div className="button-container"><Button>{t(`Découvrir.label`)}</Button></div>
 {/*document.getElementById('#13').style.display("none")*/}

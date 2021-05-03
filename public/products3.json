@@ -4,25 +4,33 @@
     {
         "id":  1, 
         "name": "Laveuse des  caisses",
-        "url":"/images/4_Plan de travail 1.png"
+        "url":"/images/4_Plan de travail 1.png",
+        "namear":"Laveuse des  caisses",
+        "nameeng":"Laveuse des  caisses"
     
     },
     {
         "id":  2, 
         "name": "Laveuse des dattes",
-        "url":"images/3_Plan de travail 1.png"
+        "url":"images/3_Plan de travail 1.png",
+        "namear":"Laveuse des dattes",
+        "nameeng":"Laveuse des dattes"
     
     },
     {
         "id":  3, 
         "name": "Cuve réfrigérée ",
-        "url":"/images/1_Plan de travail 1.png"
+        "url":"/images/1_Plan de travail 1.png",
+        "namear":"Cuve réfrigérée",
+        "nameeng":"Cuve réfrigérée"
     
     },
     {
         "id":  4, 
-        "name": "Convoyeur ",
-        "url":"/images/2_Plan de travail 1.png"
+        "name": "Convoyeur",
+        "url":"/images/2_Plan de travail 1.png",
+        "namear":"Convoyeur",
+        "nameeng":"Convoyeur"
     
     }
    ]
