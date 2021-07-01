@@ -1,0 +1,9 @@
+.solaire{
+    width:100%;
+    height: fit-content;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

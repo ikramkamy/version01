@@ -1,10 +1,12 @@
 .services
 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
+    margin-bottom: 30%;
 }
 .services-cont
 {
@@ -64,6 +66,26 @@ font-weight: bolder;
     word-spacing: 10px;
     font-size: 2vw;
 }
+/**************************************style pour la carousel*****************************************/
+.carousel-inner 
+{
+width: 80%;
+}
+.carousel 
+{
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+}
+.carousel-caption {
+   
+    bottom: 70%;
+  
+}
+
+
+
+
 
 @media only screen and (max-width:1325px){
 .service-container

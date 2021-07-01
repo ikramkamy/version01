@@ -1,26 +1,35 @@
 .presentation
 {
-    color: white;
+    color: orangered;
+    background-color: white;
+    opacity: 0.5;
     width: 100%;
-    height: 40vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    margin-top: 10%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    background-attachment: fixed;
 
 }
 .presentation h1{
     width: 50%;
     font-size: 5vw;
     width: 100%;
+    z-index: 20;
     
 }
 .presentation p{
     width:72%;
     font-size: 2vw;
+    background-size: cover;
+}
+.first{
+    width:100%
 }
 
 @media only screen and (max-width: 1200px) {
